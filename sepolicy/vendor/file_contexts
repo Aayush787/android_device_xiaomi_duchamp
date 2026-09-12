@@ -41,6 +41,6 @@
 # Thermal
 /(vendor|system/vendor)/bin/mi_thermald                                                                u:object_r:vendor_mi_thermald_exec:s0
 
-# Turbo Charge
+# Charge Speed Limit
 /sys/class/power_supply/battery/constant_charge_current                                                u:object_r:sysfs_power_supply:s0
 /sys/class/power_supply/usb/online                                                                     u:object_r:sysfs_power_supply:s0
