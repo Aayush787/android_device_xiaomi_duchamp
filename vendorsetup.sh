@@ -18,5 +18,8 @@ git fetch https://github.com/mt6897-devs/packages_modules_Bluetooth.git
 git cherry-pick bea05a62eef1fcc37e5a10d476580a017a0bd32e
 cd ../../..
 
+echo "Cloning BCR"
+git clone -b main https://github.com/Chaitanyakm/vendor_bcr.git vendor/bcr
+
 echo "Exporting prebuilt headers path"
 export TARGET_PREBUILT_KERNEL_HEADERS=device/xiaomi/duchamp-kernel/kernel-uapi-headers.tar.gz
