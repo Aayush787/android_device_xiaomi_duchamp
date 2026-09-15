@@ -399,3 +399,6 @@ $(call inherit-product, vendor/xiaomi/duchamp/duchamp-vendor.mk)
 
 # Inherit BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
+
+# Inherit Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
